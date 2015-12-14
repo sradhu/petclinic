@@ -1,7 +1,5 @@
-ALTER DATABASE liferay_dev OWNER TO tomcatapp;
-GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO tomcatapp;
-
-
+ALTER DATABASE petstore_dev OWNER TO petstore_user;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO petstore_user;
 
 
 CREATE TABLE IF NOT EXISTS vets (
