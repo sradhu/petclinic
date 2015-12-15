@@ -2,6 +2,8 @@ ALTER DATABASE petstore_dev OWNER TO petstore_user;
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO petstore_user;
 
 
+
+
 CREATE TABLE IF NOT EXISTS vets (
   id INT PRIMARY KEY NOT NULL,
   first_name VARCHAR(30),
